@@ -1,15 +1,15 @@
 body,p,td,div {
-	word-break: break-all;
-	word-break: break-word;
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	hyphens: auto;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 .doctitle {
-	margin: 0;
-	border-bottom: solid 2px #aaa;
-	white-space: nowrap;
-	top:0; left:0; right:0;
+    margin: 0;
+    border-bottom: solid 2px #aaa;
+    white-space: nowrap;
+    top:0; left:0; right:0;
 }
 
 /* Normalize bits */
@@ -48,12 +48,12 @@ samp {
 }
 
 pre {
-	overflow:auto;
+    overflow:auto;
 }
 
 code {
-	padding:  2px;
-	background-color: rgba(255, 252, 249, 1);
+    padding:  2px;
+    background-color: rgba(255, 252, 249, 1);
 }
 
 pre code {
@@ -109,31 +109,30 @@ h3, h4, h5, h6 {
 h1 {
   font-size: 24px;
   top: 5px;
-  text-align: center;
 }
 
 h2 {
   font-size: 20px;
   top: 8px;
-	border-bottom: solid 4px #aaa;
+    border-bottom: solid 4px #aaa;
 }
 
 h3 {
   font-size: 18px;
   top: 1px;
-	border-bottom: solid 3px #aaa;
+    border-bottom: solid 3px #aaa;
 }
 
 h4 {
   font-size: 16px;
   top: 2px;
-	border-bottom: solid 2px #aaa;
+    border-bottom: solid 2px #aaa;
 }
 
 h5 {
   font-size: 14px;
   top: 4px;
-	border-bottom: solid 1px #aaa;
+    border-bottom: solid 1px #aaa;
 }
 
 h6 {
@@ -274,21 +273,26 @@ hr {
 
 @media print {
   body {
-	color: #000;
-	font-size: 8pt;
+    color: #000;
+    font-size: 8pt;
   }
 
   a {
-	text-decoration: underline;
+    text-decoration: underline;
   }
 
   a:link:after {
-	content: " (" attr(href) ") ";
+    content: " (" attr(href) ") ";
   }
 
   ul, ol {
-	color: #111;
+    color: #111;
   }
 }
 
-
+@page
+{
+    size: auto;   /* auto is the initial value */
+    /* this affects the margin in the printer settings */
+    margin: 15mm 15mm 15mm 15mm;
+}
