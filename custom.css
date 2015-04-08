@@ -109,30 +109,31 @@ h3, h4, h5, h6 {
 h1 {
   font-size: 24px;
   top: 5px;
+  border-bottom: solid 8px #aaa;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
   top: 8px;
-    border-bottom: solid 4px #aaa;
+  border-bottom: solid 4px #aaa;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 16px;
   top: 1px;
-    border-bottom: solid 3px #aaa;
+  border-bottom: solid 3px #aaa;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 14px;
   top: 2px;
-    border-bottom: solid 2px #aaa;
+  border-bottom: solid 2px #aaa;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 12px;
   top: 4px;
-    border-bottom: solid 1px #aaa;
+  border-bottom: solid 1px #aaa;
 }
 
 h6 {
